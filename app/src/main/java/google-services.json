@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "469649163558",
+    "firebase_url": "https://ecohomepro-7b5ad.firebaseio.com",
+    "project_id": "ecohomepro-7b5ad",
+    "storage_bucket": "ecohomepro-7b5ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469649163558:android:0a4b5c18125b89f27c2de7",
+        "android_client_info": {
+          "package_name": "com.example.ecohomepro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469649163558-bgrd704hcj881inc1ids5kjppse15bkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ecohomepro",
+            "certificate_hash": "8b82edde398dd221188b5158de5a768b4d9b6ad5"
+          }
+        },
+        {
+          "client_id": "469649163558-gnc5i7dtctf6m9o45ef4oocrjd7gjfk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgm1Scdsayn5v1tkYuwyDLSWjQ_dCsX4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469649163558-gnc5i7dtctf6m9o45ef4oocrjd7gjfk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

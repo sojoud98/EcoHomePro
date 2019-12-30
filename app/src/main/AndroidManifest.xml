@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ecohomepro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".requsetInfo"
+            android:label="@string/title_activity_requset_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".TestDrawer" />
+        <activity android:name=".Suggestions" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".request" />
+        <activity android:name=".Admin_home" />
+        <activity android:name=".BabySitting" />
+        <activity android:name=".cooking" />
+        <activity android:name=".cleaning" />
+        <activity android:name=".home" />
+        <activity android:name=".contactNumber" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

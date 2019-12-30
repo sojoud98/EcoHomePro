@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <!-- new_user_form_activity.xml -->
+
+    <ernestoyaquello.com.verticalstepperform.VerticalStepperFormView
+        android:id="@+id/stepper_form"
+        android:layout_width="match_parent"
+        android:layout_height="710dp"
+        app:form_circle_background_color="@color/colorPrimary"
+        app:form_next_button_background_color="@color/colorPrimary"
+        app:form_next_button_pressed_background_color="@color/gray">
+
+    </ernestoyaquello.com.verticalstepperform.VerticalStepperFormView>
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="30dp"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

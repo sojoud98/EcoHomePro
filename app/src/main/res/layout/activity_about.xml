@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:padding="30dp"
+        android:text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary," />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/radiobutton_off_background"
+        android:drawableTint="@color/darkgray"
+        android:paddingStart="70sp"
+        android:text="Sojoud jebril" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/radiobutton_off_background"
+        android:drawableTint="@color/darkgray"
+        android:paddingStart="70sp"
+        android:text="Lorem ipsum" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/radiobutton_off_background"
+        android:drawableTint="@color/darkgray"
+        android:paddingStart="70sp"
+        android:text="asd jgh fcgc" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/radiobutton_off_background"
+        android:drawableTint="@color/darkgray"
+        android:paddingStart="70sp"
+        android:text="khhuy tftdtd ojoj " />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginLeft="10dp"
+        android:padding="30dp"
+        android:paddingLeft="40dp"
+        android:text="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, " />
+
+</LinearLayout>
